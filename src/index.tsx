@@ -46,7 +46,7 @@ const Content: VFC<{ serverAPI: ServerAPI }> = ({serverAPI}) => {
 
 export default definePlugin((serverApi: ServerAPI) => {
   return {
-    title: <div className={staticClasses.Title}>Decky Speaker Fix</div>,
+    title: <div className={staticClasses.Title}>Decky File Browser</div>,
     content: <Content serverAPI={serverApi} />,
     icon: <FaShip />,
   };

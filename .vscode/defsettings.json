@@ -5,7 +5,7 @@
     "deckpass"  : "",
     "deckkey"   : "-i ${env:HOME}/.ssh/id_rsa",
     "deckdir"   : "/home/deck",
-    "pluginname": "Decky Speaker Fix",
+    "pluginname": "Decky File Browser",
     "python.analysis.extraPaths": [
         "./py_modules"
     ]
